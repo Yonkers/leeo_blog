@@ -9,22 +9,57 @@
 <html>
 <head>
     <title>Leeo's Blog</title>
-    <script type="javascript" src="js/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
 
     <link rel="stylesheet" href="css/nav_left.css">
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $(document).mousemove(function (e) {
+                if (e.pageX <= 80) {
+                    $(".nav_left").show(300);
+                } else {
+                    $(".nav_left").hide(200);
+                }
+            });
+
+        });
+
+    </script>
+
 </head>
 <body>
 
-<div class="nav_left">
-    <a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
-    <a href="#" class="active">Leeo</a>
-    <a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
-    <a href="#"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></a>
-    <a href="#"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></a>
+<nav style="float: left;background-color: #2a2a2a;width: 5%;height: 100%">
+    <div class="nav_left">
+        <a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+        <a href="#" class="active">Leeo</a>
+        <a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+        <a href="#"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></a>
+        <a href="#"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></a>
+    </div>
+</nav>
+<div class="album" style="float: left; background-image: url('./imgs/home_album.jpg');background-position: center;background-repeat: no-repeat; width: 20%; height: 100%">
+
 </div>
+<section style="float: left; background-color: lightgrey;width:75%; height: 100%">
+
+    <div class="header-tab" style="background-color: #b7b3af;height: 15%;">
+
+    </div>
+
+    <div class="artical-list-container" style="background-color: lightblue;height: 80%">
+
+    </div>
+
+    <div class="footer" style="background-color: lightgrey;height: 5%">
+
+    </div>
+</section>
 
 </body>
 </html>
