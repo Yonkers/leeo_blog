@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/nav_left.css">
 
@@ -41,6 +42,8 @@
         <a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
         <a href="#"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></a>
         <a href="#"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></a>
+        <a href="#"><span class="fa fa-github" aria-hidden="true"></span></a>
+        <a href="#"><span class="fa fa-weibo" aria-hidden="true"></span></a>
     </div>
 </nav>
 <div class="album" style="float: left; background-image: url('./imgs/home_album.jpg');background-position: center;background-repeat: no-repeat; width: 20%; height: 100%">
