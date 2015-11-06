@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    color: #666666;
+    -webkit-font-smoothing: antialiased;
+    background: url(../imgs/background-cover.jpg) top left no-repeat #666666;
+    background-size: cover;
+}
+
+.cover-purple {
+    #background-color: rgba(73, 50, 82, 0.4);
+    #background-image: -webkit-linear-gradient(-410deg, rgba(73, 50, 82, 0.6) 20%, rgba(17, 11, 19, 0.8));
+    #background-image: linear-gradient(140deg,rgba(73, 50, 82, 0.6) 20%, rgba(17, 11, 19, 0.8));
+}
+.panel-cover--overlay {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(68, 68, 68, 0.4);
+    background-image: -webkit-linear-gradient(-410deg, rgba(68, 68, 68, 0.6) 20%, rgba(0, 0, 0, 0.9));
+    background-image: linear-gradient(140deg,rgba(68, 68, 68, 0.6) 20%, rgba(0, 0, 0, 0.9));
+}
+
+.head{
+    width: 30%;
+    margin: 0 auto;
+}
