@@ -30,3 +30,11 @@ body{
     width: 30%;
     margin: 0 auto;
 }
+
+.list-item{
+    margin-bottom: 10px;
+}
+
+.content{
+    padding: 5px;
+}
