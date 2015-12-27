@@ -32,7 +32,17 @@ body{
 }
 
 .list-item{
+    font-size: 16px;
+    margin-top: 20px;
+    padding-bottom: 10px;
     margin-bottom: 10px;
+
+    border-bottom: dotted 1px lightblue;
+}
+
+.list-item .title{
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .content{

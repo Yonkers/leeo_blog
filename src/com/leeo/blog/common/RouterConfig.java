@@ -1,6 +1,7 @@
 package com.leeo.blog.common;
 import com.jfinal.config.*;
 import com.jfinal.render.ViewType;
+import com.leeo.blog.controller.ArticleController;
 import com.leeo.blog.controller.MainController;
 
 /**
@@ -16,6 +17,7 @@ public class RouterConfig extends JFinalConfig{
     @Override
     public void configRoute(Routes me) {
         me.add("/",MainController.class);
+        me.add("article",ArticleController.class);
     }
 
     @Override

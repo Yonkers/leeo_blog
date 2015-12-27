@@ -11,14 +11,14 @@
     <title>Leeo's Blog</title>
     <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
 
-    <link rel="stylesheet" href="css/metro.css">
-    <link rel="stylesheet" href="css/metro-icons.css">
-    <%--<link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">--%>
+    <link rel="stylesheet" href="bootstrap-3.3.5/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-3.3.5/css/bootstrap-theme.css">
+    <link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/nav_left.css">
     <link rel="stylesheet" href="main/main.css">
 
-    <script rel="stylesheet" src="js/metro.js"></script>
+    <script rel="stylesheet" src="bootstrap-3.3.5/js/bootstrap.js"></script>
 
     <script type="text/javascript">
         $(document).ready(function () {
@@ -77,7 +77,7 @@
 
             <div class="artical-list-container" style="height: 80%; margin-left: 80px;margin-right: 180px;">
 
-                <div class="panel list-item">
+                <div class="list-item">
                     <div class="heading">
                         <span class="title">你不得不知的十三个关于意志力的事实</span>
                     </div>
@@ -85,7 +85,7 @@
                         这是一个心理学的测量指标，科学家可以根据这个来判断一个人的自控力程度。当人们感到压力时，我们的交感神经系统会控制身体，这种生理学现象让你能够战斗或者逃跑，这时心率升高，心率变异度就会降低。伴随着这种冲动或者应激反应产生的焦虑，心率会保持在较高的水平上。
                     </div>
                 </div>
-                <div class="panel list-item">
+                <div class="list-item">
                     <div class="heading">
                         <span class="title">一个文章写得好的条件是什么？</span>
                     </div>
@@ -93,7 +93,7 @@
                         冥想练习就是最简单有效的方法。它不仅能够训练大脑，还能提高心率变异度。还有一些减轻压力、保持健康的方法，比如锻炼、保证良好睡眠、保证健康饮食、和朋友家人共度美好时光、参加宗教活动，都能增强身体的意志力储备。
                     </div>
                 </div>
-                <div class="panel list-item">
+                <div class="list-item">
                     <div class="heading">
                         <span class="title">一个文章写得好的条件是什么？</span>
                     </div>
