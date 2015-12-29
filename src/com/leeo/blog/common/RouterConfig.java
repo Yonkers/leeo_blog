@@ -9,6 +9,7 @@ import com.leeo.blog.controller.MainController;
  * Created by leeo on 11/1/15.
  */
 public class RouterConfig extends JFinalConfig{
+
     @Override
     public void configConstant(Constants me) {
         me.setViewType(ViewType.JSP);
@@ -16,8 +17,8 @@ public class RouterConfig extends JFinalConfig{
 
     @Override
     public void configRoute(Routes me) {
-        me.add("/",MainController.class);
-        me.add("article",ArticleController.class);
+        me.add("/", MainController.class);
+        me.add("article", ArticleController.class);
     }
 
     @Override
